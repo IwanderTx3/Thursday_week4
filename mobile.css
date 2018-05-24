@@ -1,0 +1,24 @@
+.displayStories{
+    display:flex;
+    flex-direction: column;
+    background-color:black;
+    color:white;
+    border-style: outset;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.displayStories a{
+    font-size: 12px;
+}
+
+.displayStories .storyBox{
+    display:flex;
+    flex-direction: column;
+}
+
+.displayStories .image{
+    width: 200px;
+    height: auto;
+    margin-right:20px;
+}
